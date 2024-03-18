@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using PustokMVC.Business.Implementations;
-using PustokMVC.Business.Interfaces;
 using PustokMVC.Data;
+using PustokMVC;
+using PustokMVC.Models;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +12,22 @@ builder.Services.AddDbContext<PustokDbContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("default"));
 });
-builder.Services.AddScoped<IGenreService, GenreService>();
+
+builder.Services.AddIdentity<AppUser,IdentityRole>(opt =>
+{
+    opt.Password.RequireNonAlphanumeric = true;
+    opt.Password.RequiredLength = 8;
+    opt.Password.RequireUppercase = true;
+    opt.Password.RequireLowercase = true;
+    opt.Password.RequireDigit = true;
+
+    opt.User.RequireUniqueEmail = true;
+})
+    .AddEntityFrameworkStores<PustokDbContext>()
+    .AddDefaultTokenProviders();
+
+builder.Services.AddServices();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -27,6 +43,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

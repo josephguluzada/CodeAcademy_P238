@@ -1,42 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\PustokMVC\\",
+  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\pustokmvc\\pustokmvc\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\pustokmvc\\pustokmvc\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\pustokmvc\\pustokmvc\\areas\\admin\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\areas\\admin\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\areas\\admin\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\pustokmvc\\pustokmvc\\business\\implementations\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\business\\implementations\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\pustokmvc\\pustokmvc\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\viewmodels\\userregisterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\viewmodels\\userregisterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\pustokmvc\\pustokmvc\\areas\\admin\\views\\genre\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\areas\\admin\\views\\genre\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\areas\\admin\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\areas\\admin\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\pustokmvc\\pustokmvc\\business\\interfaces\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\business\\interfaces\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\areas\\admin\\viewmodels\\adminloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\areas\\admin\\viewmodels\\adminloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\pustokmvc\\pustokmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\pustokmvc\\pustokmvc\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\data\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\data\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|c:\\users\\asus\\desktop\\codeacademy_p238\\pustokmvc\\pustokmvc\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC609AC-4A3F-44D0-9719-E05AD4968E0B}|PustokMVC\\PustokMVC.csproj|solutionrelative:pustokmvc\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,130 +62,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenreService.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Business\\Implementations\\GenreService.cs",
-              "RelativeDocumentMoniker": "PustokMVC\\Business\\Implementations\\GenreService.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Business\\Implementations\\GenreService.cs",
-              "RelativeToolTip": "PustokMVC\\Business\\Implementations\\GenreService.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAyAAAA",
+              "DocumentIndex": 5,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "PustokMVC\\Areas\\Admin\\Controllers\\GenreController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "PustokMVC\\Areas\\Admin\\Controllers\\GenreController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T10:34:40.192Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-03-18T14:11:49.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IGenreService.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Business\\Interfaces\\IGenreService.cs",
-              "RelativeDocumentMoniker": "PustokMVC\\Business\\Interfaces\\IGenreService.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Business\\Interfaces\\IGenreService.cs",
-              "RelativeToolTip": "PustokMVC\\Business\\Interfaces\\IGenreService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAABvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T10:26:06.479Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "PustokMVC\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "PustokMVC\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T13:53:20.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Genre.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Models\\Genre.cs",
-              "RelativeDocumentMoniker": "PustokMVC\\Models\\Genre.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Models\\Genre.cs",
-              "RelativeToolTip": "PustokMVC\\Models\\Genre.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T13:45:39.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Areas\\Admin\\Views\\Genre\\Index.cshtml",
-              "RelativeDocumentMoniker": "PustokMVC\\Areas\\Admin\\Views\\Genre\\Index.cshtml",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Areas\\Admin\\Views\\Genre\\Index.cshtml",
-              "RelativeToolTip": "PustokMVC\\Areas\\Admin\\Views\\Genre\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "PustokMVC\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "PustokMVC\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T13:44:05.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "PustokMVC\\Areas\\Admin\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\BookController.cs",
-              "RelativeToolTip": "PustokMVC\\Areas\\Admin\\Controllers\\BookController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAACwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T13:41:36.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\ViewModels\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "PustokMVC\\ViewModels\\HomeViewModel.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\ViewModels\\HomeViewModel.cs",
-              "RelativeToolTip": "PustokMVC\\ViewModels\\HomeViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T12:30:20.367Z",
+              "WhenOpened": "2024-03-18T13:58:37.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PustokMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PustokMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAsAAAA",
+              "Title": "UserRegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\ViewModels\\UserRegisterViewModel.cs",
+              "RelativeDocumentMoniker": "PustokMVC\\ViewModels\\UserRegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\ViewModels\\UserRegisterViewModel.cs",
+              "RelativeToolTip": "PustokMVC\\ViewModels\\UserRegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T12:30:17.154Z",
+              "WhenOpened": "2024-03-18T13:48:47.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GenreController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\GenreController.cs",
-              "RelativeDocumentMoniker": "PustokMVC\\Areas\\Admin\\Controllers\\GenreController.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\GenreController.cs",
-              "RelativeToolTip": "PustokMVC\\Areas\\Admin\\Controllers\\GenreController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABsAAAA",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PustokMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PustokMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACwAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T12:18:00.867Z",
+              "WhenOpened": "2024-03-18T13:47:27.791Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PustokMVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PustokMVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T13:24:50.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminLoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\ViewModels\\AdminLoginViewModel.cs",
+              "RelativeDocumentMoniker": "PustokMVC\\Areas\\Admin\\ViewModels\\AdminLoginViewModel.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\ViewModels\\AdminLoginViewModel.cs",
+              "RelativeToolTip": "PustokMVC\\Areas\\Admin\\ViewModels\\AdminLoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:23:34.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "PustokMVC\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "PustokMVC\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T13:17:05.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PustokMVC\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PustokMVC\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAADAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:16:36.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "PustokMVC\\Areas\\Admin\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\BookController.cs",
+              "RelativeToolTip": "PustokMVC\\Areas\\Admin\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:57:54.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "PustokMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "PustokMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:40:33.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Program.cs",
+              "RelativeDocumentMoniker": "PustokMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Program.cs",
+              "RelativeToolTip": "PustokMVC\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:29:13.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PustokDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Data\\PustokDbContext.cs",
+              "RelativeDocumentMoniker": "PustokMVC\\Data\\PustokDbContext.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Data\\PustokDbContext.cs",
+              "RelativeToolTip": "PustokMVC\\Data\\PustokDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:15:20.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "PustokMVC\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\Models\\AppUser.cs",
+              "RelativeToolTip": "PustokMVC\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:14:12.882Z",
+              "EditorCaption": ""
             }
           ]
         }

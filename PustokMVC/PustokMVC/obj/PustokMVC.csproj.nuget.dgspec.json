@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\PustokMVC.csproj": {}
+    "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\PustokMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\PustokMVC.csproj": {
+    "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\PustokMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\PustokMVC.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\PustokMVC.csproj",
         "projectName": "PustokMVC",
-        "projectPath": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\PustokMVC.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\PustokMVC.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\PustokMVC\\PustokMVC\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -58,6 +62,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

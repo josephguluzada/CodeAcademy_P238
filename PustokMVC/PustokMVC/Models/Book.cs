@@ -32,5 +32,8 @@ namespace PustokMVC.Models
         public IFormFile? HoverImageFile { get; set; }
         [NotMapped]
         public List<IFormFile>? ImageFiles { get; set; }
+
+        [NotMapped]
+        public List<int>? BookImageIds { get; set; }
     }
 }
