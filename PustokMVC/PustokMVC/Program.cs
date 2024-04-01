@@ -12,7 +12,10 @@ builder.Services.AddDbContext<PustokDbContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("default"));
 });
-
+builder.Services.AddSession(opt =>
+{
+    opt.IdleTimeout = TimeSpan.FromSeconds(20);
+});
 builder.Services.AddIdentity<AppUser,IdentityRole>(opt =>
 {
     opt.Password.RequireNonAlphanumeric = true;
@@ -42,7 +45,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 

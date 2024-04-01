@@ -7837,6 +7837,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\custom.js"
     },
     {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
       "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\assets\\js\\plugins.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins.js"
     },
@@ -7845,24 +7849,76 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\1ffdb8fc-a4f1-4479-a2d9-bcde4531d484product-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\1ffdb8fc-a4f1-4479-a2d9-bcde4531d484product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\22568f6b-d61c-480d-a2fb-97a79b7c7692product-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\22568f6b-d61c-480d-a2fb-97a79b7c7692product-3.jpg"
+    },
+    {
       "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\2a7cd634-b804-4e26-80ef-e73e9cdc4b0aproduct-details-2.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\2a7cd634-b804-4e26-80ef-e73e9cdc4b0aproduct-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\3b9c28fc-ee47-410b-8051-e7bcdd6d918eproduct-details-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\3b9c28fc-ee47-410b-8051-e7bcdd6d918eproduct-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\45771826-672f-4e9e-9ad9-01a6146c6508product-11.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\45771826-672f-4e9e-9ad9-01a6146c6508product-11.jpg"
     },
     {
       "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\4fd3183e-1801-4652-b9e4-71a82d021b89product-11.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\4fd3183e-1801-4652-b9e4-71a82d021b89product-11.jpg"
     },
     {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\518135cc-f25f-4af5-b9af-064993708a3cproduct-12.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\518135cc-f25f-4af5-b9af-064993708a3cproduct-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\52ac6c23-1ce8-4c3b-9aca-28b8ddb01d57product-details-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\52ac6c23-1ce8-4c3b-9aca-28b8ddb01d57product-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\6497c689-1e46-4eb4-b6c4-c7a3660e5d91product-details-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\6497c689-1e46-4eb4-b6c4-c7a3660e5d91product-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\71099a6f-df12-4412-a449-2bbda8bc5c7aproduct-details-5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\71099a6f-df12-4412-a449-2bbda8bc5c7aproduct-details-5.jpg"
+    },
+    {
       "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\7c4c8047-b075-40f9-acd1-b9063b442af3cart-product-1.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\7c4c8047-b075-40f9-acd1-b9063b442af3cart-product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\7f951d8d-31d9-43be-90ab-b23047391c8aproduct-7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\7f951d8d-31d9-43be-90ab-b23047391c8aproduct-7.jpg"
     },
     {
       "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\823627ff-ce36-4cac-9331-acc3091c419dcart-product-1 - Copy.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\823627ff-ce36-4cac-9331-acc3091c419dcart-product-1 - Copy.jpg"
     },
     {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\84588489-0cf1-497d-ad5f-db698ca45a44product-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\84588489-0cf1-497d-ad5f-db698ca45a44product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\b4e4997a-b27f-40d3-96ae-9fd63d665495product-details-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\b4e4997a-b27f-40d3-96ae-9fd63d665495product-details-2.jpg"
+    },
+    {
       "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\cb24a0fd-b00c-4134-b4b2-fcbbeeeb252aproduct-1.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\cb24a0fd-b00c-4134-b4b2-fcbbeeeb252aproduct-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\cd37a731-ef2c-4e12-84ed-4a28f3263778product-details-5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\cd37a731-ef2c-4e12-84ed-4a28f3263778product-details-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\books\\f09a99b6-9b23-4eee-b3cf-f8e272ee80e1product-13.jpg",
+      "PackagePath": "staticwebassets\\uploads\\books\\f09a99b6-9b23-4eee-b3cf-f8e272ee80e1product-13.jpg"
     },
     {
       "Id": "C:\\Users\\asus\\Desktop\\CodeAcademy_P238\\PustokMVC\\PustokMVC\\wwwroot\\uploads\\sliders\\5ab6e886-e202-4676-94f7-2f67bcf24969home-4-slider-2.jpg",

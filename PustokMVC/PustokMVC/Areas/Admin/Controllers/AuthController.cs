@@ -51,5 +51,68 @@ namespace PustokMVC.Areas.Admin.Controllers
 
             return RedirectToAction("index","dashboard");
         }
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel forgotPasswordVM)
+        {
+            if (!ModelState.IsValid) return View();
+            var user = await _userManager.FindByEmailAsync(forgotPasswordVM.Email);
+
+            if(user is not null)
+            {
+                var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+                var resetTokenLink = Url.Action("ResetPassword", "Auth", new { email = forgotPasswordVM.Email, token = token }, Request.Scheme);
+
+                // email service...
+
+                return View("ConfirmPage");
+            }
+            else
+            {
+                ModelState.AddModelError("Email", "User not found");
+                return View();
+            }
+
+        }
+
+        public IActionResult ResetPassword(string email, string token)
+        {
+            if (email == null || token == null) return NotFound();
+
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel resetPasswordViewModel)
+        {
+            if (!ModelState.IsValid) return View();
+
+            var user = await _userManager.FindByEmailAsync(resetPasswordViewModel.Email);
+            if(user is not null)
+            {
+                var result = await _userManager.ResetPasswordAsync(user, resetPasswordViewModel.Token, resetPasswordViewModel.NewPassword);
+
+                if(!result.Succeeded)
+                {
+                    foreach (var err in result.Errors)
+                    {
+                        ModelState.AddModelError("", err.Description);
+                        return View();
+                    }
+                }
+            }
+
+            return RedirectToAction(nameof(Login));
+        }
     }
 }

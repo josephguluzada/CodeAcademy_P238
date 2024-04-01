@@ -103,9 +103,14 @@ namespace PustokMVC.Areas.Admin.Controllers
                 {
                     throw new BookInvalidCredentialException("PosterImageFile", "Size must be lower than 2mb!");
                 }
+                FileManager.DeleteFile(_env.WebRootPath, "uploads/books", existData.BookImages.FirstOrDefault(x => x.IsPoster == true)?.ImageUrl);
+                if(existData.BookImages.Any(x=>x.IsPoster == true))
+                {
+                    existData.BookImages.RemoveAll(x => x.IsPoster == true);
+                }
                 BookImage posterImage = new BookImage()
                 {
-                    Book = book,
+                    Book = existData,
                     ImageUrl = book.PosterImageFile.SaveFile(_env.WebRootPath, "uploads/books"),
                     IsPoster = true
                 };
@@ -124,7 +129,7 @@ namespace PustokMVC.Areas.Admin.Controllers
                 }
                 BookImage hoverImage = new BookImage()
                 {
-                    Book = book,
+                    Book = existData,
                     ImageUrl = book.HoverImageFile.SaveFile(_env.WebRootPath, "uploads/books"),
                     IsPoster = false
                 };
