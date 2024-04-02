@@ -251,6 +251,42 @@ namespace PustokMVC.Migrations
                     b.ToTable("Authors");
                 });
 
+            modelBuilder.Entity("PustokMVC.Models.BasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("BasketItems");
+                });
+
             modelBuilder.Entity("PustokMVC.Models.Book", b =>
                 {
                     b.Property<int>("Id")
@@ -482,6 +518,25 @@ namespace PustokMVC.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("PustokMVC.Models.BasketItem", b =>
+                {
+                    b.HasOne("PustokMVC.Models.AppUser", "AppUser")
+                        .WithMany("BasketItems")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("PustokMVC.Models.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Book");
+                });
+
             modelBuilder.Entity("PustokMVC.Models.Book", b =>
                 {
                     b.HasOne("PustokMVC.Models.Author", "Author")
@@ -510,6 +565,11 @@ namespace PustokMVC.Migrations
                         .IsRequired();
 
                     b.Navigation("Book");
+                });
+
+            modelBuilder.Entity("PustokMVC.Models.AppUser", b =>
+                {
+                    b.Navigation("BasketItems");
                 });
 
             modelBuilder.Entity("PustokMVC.Models.Author", b =>

@@ -1,5 +1,6 @@
 ﻿using PustokMVC.Business.Implementations;
 using PustokMVC.Business.Interfaces;
+using PustokMVC.ViewServices;
 
 namespace PustokMVC
 {
@@ -9,6 +10,7 @@ namespace PustokMVC
         {
             services.AddScoped<IGenreService, GenreService>();
             services.AddScoped<IBookService, BookService>();
+            services.AddScoped<AdminLayoutService>();
         }
     }
 }

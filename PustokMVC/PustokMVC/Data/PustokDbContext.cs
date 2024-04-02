@@ -14,4 +14,5 @@ public class PustokDbContext : IdentityDbContext<AppUser>
     public DbSet<Book> Books { get; set; }
     public DbSet<BookImage> BookImages { get; set; }
     public DbSet<AppUser> Users { get; set; }
+    public DbSet<BasketItem> BasketItems { get; set; }
 }

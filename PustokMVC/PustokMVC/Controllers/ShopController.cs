@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
@@ -13,13 +14,16 @@ namespace PustokMVC.Controllers
     {
         private readonly IBookService _bookService;
         private readonly PustokDbContext _context;
+        private readonly UserManager<AppUser> _userManager;
 
         public ShopController(
                 IBookService bookService,
-                PustokDbContext context)
+                PustokDbContext context,
+                UserManager<AppUser> userManager)
         {
             _bookService = bookService;
             _context = context;
+            _userManager = userManager;
         }
         public IActionResult Index()
         {
@@ -37,17 +41,39 @@ namespace PustokMVC.Controllers
 
             List<BasketItemViewModel> basketItems = new List<BasketItemViewModel>();
             BasketItemViewModel basketItem = null;
+            BasketItem userBasketItem = null;
             var basketItemsStr = HttpContext.Request.Cookies["BasketItems"];
 
-            if(basketItemsStr is not null)
+            AppUser appUser = null;
+
+            if (HttpContext.User.Identity.IsAuthenticated)
             {
-                basketItems = JsonConvert.DeserializeObject<List<BasketItemViewModel>>(basketItemsStr);
+                appUser = await _userManager.FindByNameAsync(HttpContext.User.Identity.Name);
+                //appUser = await _context.Users.FirstOrDefaultAsync(x=>x.NormalizedUserName == HttpContext.User.Identity.Name.ToUpper());
+            }
 
-                basketItem = basketItems.FirstOrDefault(x=>x.BookId == bookId);
-
-                if(basketItem is not null)
+            if(appUser is null)
+            {
+                if (basketItemsStr is not null)
                 {
-                    basketItem.Count++;
+                    basketItems = JsonConvert.DeserializeObject<List<BasketItemViewModel>>(basketItemsStr);
+
+                    basketItem = basketItems.FirstOrDefault(x => x.BookId == bookId);
+
+                    if (basketItem is not null)
+                    {
+                        basketItem.Count++;
+                    }
+                    else
+                    {
+                        basketItem = new BasketItemViewModel()
+                        {
+                            BookId = bookId,
+                            Count = 1
+                        };
+
+                        basketItems.Add(basketItem);
+                    }
                 }
                 else
                 {
@@ -62,13 +88,27 @@ namespace PustokMVC.Controllers
             }
             else
             {
-                basketItem = new BasketItemViewModel()
-                {
-                    BookId = bookId,
-                    Count = 1
-                };
+                userBasketItem = await _context.BasketItems.FirstOrDefaultAsync(bi => bi.AppUserId == appUser.Id && bi.BookId == bookId);
 
-                basketItems.Add(basketItem);
+                if(userBasketItem is not null && !userBasketItem.IsDeleted) 
+                { 
+                    userBasketItem.Count++;
+                }
+                else
+                {
+                    userBasketItem = new BasketItem()
+                    {
+                        BookId = bookId,
+                        Count = 1,
+                        AppUserId = appUser.Id,
+                        IsDeleted = false,
+                        CreatedDate = DateTime.UtcNow,
+                        ModifiedDate = DateTime.UtcNow,
+                    };
+
+                    await _context.BasketItems.AddAsync(userBasketItem);
+                }
+                await _context.SaveChangesAsync();
             }
 
             basketItemsStr = JsonConvert.SerializeObject(basketItems);
@@ -78,16 +118,43 @@ namespace PustokMVC.Controllers
             return Ok(); //200
         }
 
-        public IActionResult GetBasketItems()
+        public async Task<IActionResult> GetBasketItems()
         {
             List<BasketItemViewModel> basketItems = new List<BasketItemViewModel>();
+            List<BasketItem> userBasketItems = new List<BasketItem>();
+            AppUser user = null;
 
-            var basketItemsStr = HttpContext.Request.Cookies["BasketItems"];
-
-            if(basketItemsStr is not null)
+            if (HttpContext.User.Identity.IsAuthenticated)
             {
-                basketItems = JsonConvert.DeserializeObject<List<BasketItemViewModel>>(basketItemsStr);
+                user = await _userManager.FindByNameAsync(HttpContext.User.Identity.Name);
             }
+
+            if (user is not null)
+            {
+                userBasketItems = await _context.BasketItems.Where(bi => bi.AppUserId == user.Id && bi.IsDeleted == false).ToListAsync();
+
+                //foreach (var userBasketItem in userBasketItems)
+                //{
+                //    BasketItemViewModel basketItemViewModel = new BasketItemViewModel()
+                //    {
+                //        BookId = userBasketItem.BookId,
+                //        Count = userBasketItem.Count,
+                //    };
+                //    basketItems.Add(basketItemViewModel);
+                //}
+
+                basketItems = userBasketItems.Select(ubi => new BasketItemViewModel() { BookId = ubi.BookId, Count = ubi.Count }).ToList();
+            }
+            else
+            {
+                var basketItemsStr = HttpContext.Request.Cookies["BasketItems"];
+
+                if (basketItemsStr is not null)
+                {
+                    basketItems = JsonConvert.DeserializeObject<List<BasketItemViewModel>>(basketItemsStr);
+                }
+            }
+            
 
             return Ok(basketItems);
 
