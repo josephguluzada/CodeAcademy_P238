@@ -10,11 +10,15 @@ namespace PustokMVC.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly PustokDbContext _context;
+        private readonly SignInManager<AppUser> _signInManager;
 
-        public AccountController(UserManager<AppUser> userManager, PustokDbContext context)
+        public AccountController(UserManager<AppUser> userManager, 
+                                 PustokDbContext context,
+                                 SignInManager<AppUser> signInManager)
         {
             _userManager = userManager;
             _context = context;
+            _signInManager = signInManager;
         }
 
         public IActionResult Index()
@@ -64,6 +68,47 @@ namespace PustokMVC.Controllers
             return RedirectToAction("login");
         }
 
+        public IActionResult Login()
+        {
+            return View();
+        }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(UserLoginViewModel userLoginViewModel)
+        {
+            if (!ModelState.IsValid) return View();
+            AppUser user = null;
+
+            user = await _userManager.FindByNameAsync(userLoginViewModel.UsernameOrEmail);
+
+            if(user is null) 
+            {
+                user = await _userManager.FindByEmailAsync(userLoginViewModel.UsernameOrEmail);
+
+                if( user is null )
+                {
+                    ModelState.AddModelError("", "Invalid credentials");
+                    return View();
+                }
+            }
+
+            var result = await _signInManager.PasswordSignInAsync(user, userLoginViewModel.Password, false, false);
+
+            if(!result.Succeeded)
+            {
+                ModelState.AddModelError("", "Invalid credentials");
+                return View();  
+            }
+
+            return RedirectToAction(nameof(Index), "home");
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+
+            return RedirectToAction(nameof(Login), "account");
+        }
     }
 }

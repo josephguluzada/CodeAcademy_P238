@@ -160,6 +160,11 @@ namespace PustokMVC.Controllers
 
         }
 
+        public IActionResult Checkout()
+        {
+            return View();
+        }
+
         //public IActionResult SetSession(int id)
         //{
         //    HttpContext.Session.SetString("UserName", id.ToString());

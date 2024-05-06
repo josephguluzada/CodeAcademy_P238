@@ -5,6 +5,7 @@ using PustokMVC.Business.Interfaces;
 using PustokMVC.CustomExceptions.BookExceptions;
 using PustokMVC.Data;
 using PustokMVC.Extensions;
+using PustokMVC.Helpers;
 using PustokMVC.Models;
 
 namespace PustokMVC.Areas.Admin.Controllers
@@ -28,9 +29,18 @@ namespace PustokMVC.Areas.Admin.Controllers
             _bookService = bookService;
             _genreService = genreService;
         }
-        public async Task<IActionResult> Index()
-            => View(await _bookService.GetAllAsync(null,"Author","Genre","BookImages"));
+        //public async Task<IActionResult> Index()
+        //    => View(await _bookService.GetAllAsync(null,"Author","Genre","BookImages"));
 
+        public async Task<IActionResult> Index(int page)
+        {
+            var datas = _context.Books.AsQueryable();
+            datas = datas.Include(x => x.Author).Include(x => x.Genre).Include(x => x.BookImages);
+
+            var paginatedDatas = PaginatedList<Book>.Create(datas, 2, page);
+
+            return View(paginatedDatas);
+        }
         public async Task<IActionResult> Create()
         {
             ViewBag.Genres = await _context.Genres.ToListAsync();

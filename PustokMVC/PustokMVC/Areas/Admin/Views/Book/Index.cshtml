@@ -1,4 +1,4 @@
-﻿@model List<Book>
+﻿@model PaginatedList<Book>
 @{
     int counter = 0;
 }
@@ -42,4 +42,24 @@
 
         </tbody>
     </table>
+
+    <nav aria-label="...">
+        <ul class="pagination">
+            <li class="page-item @(Model.HasPrev == true ? "" : "disabled")">
+                <a class="page-link" asp-action="index" asp-route-page="@(Model.ActivePage - 1)">Previous</a>
+            </li>
+            @for (int i = 1; i <= Model.TotalPageCount; i++)
+            {
+                <li class="page-item @(Model.ActivePage == i ? "active" : "")">
+                    <a class="page-link" asp-action="index" asp-route-page="@i" >@i</a>
+                </li>
+            }
+           
+            <li class="page-item  @(Model.HasNext == true ? "" : "disabled")">
+                <a class="page-link" asp-action="index" asp-route-page="@(Model.ActivePage + 1)">Next</a>
+            </li>
+        </ul>
+    </nav>
 </div>
+
+
